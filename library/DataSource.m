@@ -10,4 +10,16 @@
 
 @implementation DataSource
 
++ (NSData *)postJSON{
+    
+    NSDictionary *dic = [NSDictionary dictionaryWithObjectsAndKeys:@"追风少年",@"name",
+                         @"123",@"id" , nil];
+    
+    NSArray *array = [NSArray arrayWithObject:dic];
+    
+    NSData *data = [NSJSONSerialization dataWithJSONObject:array options:NSJSONWritingPrettyPrinted error:nil];
+    
+   return data;
+}
+
 @end

@@ -1,0 +1,6 @@
+使用几个常用第三方库实现一些基本功能
+AFNetworking请求数据 （点击按钮，将请求结果显示在UITextView中）
+JSONModel字典转模型（自定义cell显示新闻数据）
+MJRefresh刷新
+SDCycleScrollView图片轮播（本地图片）
+TZImagePicker图片选择器（回调后显示）
